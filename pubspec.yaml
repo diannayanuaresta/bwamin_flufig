@@ -1,0 +1,64 @@
+description: "A new Flutter application."
+name: "flutterapp"
+publish_to: "none"
+version: "1.0.0+1"
+dependencies:
+  bloc: ^8.1.1
+  concentric_transition: ^1.0.3
+  cupertino_icons: ^1.0.5
+  expandable: ^5.0.1
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  getwidget: ^3.0.1
+  intl: ^0.18.0
+  money_formatter: ^0.0.4
+  path_drawing: ^1.0.0
+  responsive_framework: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: "flutter"
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+flutter:
+  assets:
+    - "assets/images/"
+  fonts:
+    - family: "Inter"
+      fonts:
+        - asset: "fonts/Inter-regular.ttf"
+          style: "normal"
+          weight: 400
+        - asset: "fonts/Inter-300.ttf"
+          style: "normal"
+          weight: 300
+        - asset: "fonts/Inter-500.ttf"
+          style: "normal"
+          weight: 500
+        - asset: "fonts/Inter-600.ttf"
+          style: "normal"
+          weight: 600
+    - family: "Poppins"
+      fonts:
+        - asset: "fonts/Poppins-600.ttf"
+          style: "normal"
+          weight: 600
+        - asset: "fonts/Poppins-regular.ttf"
+          style: "normal"
+          weight: 400
+        - asset: "fonts/Poppins-500.ttf"
+          style: "normal"
+          weight: 500
+    - family: "Roboto"
+      fonts:
+        - asset: "fonts/Roboto-700.ttf"
+          style: "normal"
+          weight: 700
+        - asset: "fonts/Roboto-500.ttf"
+          style: "normal"
+          weight: 500
+        - asset: "fonts/Roboto-regular.ttf"
+          style: "normal"
+          weight: 400
+  uses-material-design: true

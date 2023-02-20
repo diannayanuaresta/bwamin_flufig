@@ -1,0 +1,4 @@
+#Mon Feb 20 15:27:38 ICT 2023
+base.0=C\:\\Users\\resta\\Downloads\\bwamin_flufig\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
